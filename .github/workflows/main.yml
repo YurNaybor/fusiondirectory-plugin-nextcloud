@@ -14,3 +14,8 @@ jobs:
 
     - name: Run a one-line script
       run: fakeroot ./build-deb.sh
+
+    - uses: actions/upload-artifact@v1
+      with:
+        name: debian-package
+        path: fusiondirectory-plugin-nextcloud.deb
