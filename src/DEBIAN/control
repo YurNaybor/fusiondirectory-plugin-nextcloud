@@ -1,0 +1,10 @@
+Package: fusiondirectory-plugin-nextcloud
+Section: web
+Version: 0.1
+Priority: optional
+Maintainer: "Benjamin Voigt" <de_doener@web.de>
+Architecture: amd64
+Depends: fusiondirectory, slapd
+Description: Nextcloud plugin for fusiondirectory
+ Install LDAP schema and fusiondirectory extension
+ to managed Nextcloud accounts and groups.
