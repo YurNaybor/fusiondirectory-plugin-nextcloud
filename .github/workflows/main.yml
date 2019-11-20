@@ -1,0 +1,21 @@
+name: CI
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-18.04
+
+    steps:
+    - uses: actions/checkout@v1
+
+    - run: sudo apt-get update && sudo apt-get install fakeroot
+
+    - name: Run a one-line script
+      run: fakeroot ./build-deb.sh
+
+    - uses: actions/upload-artifact@v1
+      with:
+        name: debian-package
+        path: fusiondirectory-plugin-nextcloud.deb

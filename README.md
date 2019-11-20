@@ -10,7 +10,7 @@ fakeroot ./build-deb.sh
 ```
 
 
-## references
+## References
 
 - [Used ldap schema extensions from the debops project](https://github.com/debops/debops/blob/master/ansible/roles/debops.slapd/files/etc/ldap/schema/debops/nextcloud.schema)
 - [Fusiondirectory developer documentation](https://fusiondirectory-developer-documentation.readthedocs.io/en/1.3/pluginsystem/start.html)
