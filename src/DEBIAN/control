@@ -3,7 +3,7 @@ Section: web
 Version: 0.1
 Priority: optional
 Maintainer: "Benjamin Voigt" <de_doener@web.de>
-Architecture: amd64
+Architecture: all
 Depends: fusiondirectory, slapd
 Description: Nextcloud plugin for fusiondirectory
  Install LDAP schema and fusiondirectory extension
